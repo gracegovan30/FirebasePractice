@@ -23,9 +23,16 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+            
+        setUpElements()
         // Do any additional setup after loading the view.
     }
+    
+    func setUpElements(){
+        errorLabel.alpha = 0
+    }
+    
+    
     
     @IBAction func loginTapped(_ sender: Any) {
         

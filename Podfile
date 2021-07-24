@@ -9,6 +9,7 @@ target 'FirebasePractice' do
   pod 'Firebase'
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
+  pod 'GoogleSignIn'
   
   
   target 'FirebasePracticeTests' do

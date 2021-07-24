@@ -31,9 +31,17 @@ class SignUpViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        setUpElements()
 
        }
     
+    func setUpElements(){
+        //Hide the error label
+        errorLabel.alpha = 0
+        
+//Utilities.styleTextField(firstNameTextField)
+    }
 
     
     @IBAction func signUpTapped(_ sender: Any) {
